@@ -22,8 +22,11 @@ print("he is also a student of " + character_school + '')
 
 #List
 Friends = ["marvel", "princess", "Temperance", "goodnews"]
+cgpa = [2.5, 2.7, 3.8, 4.0]
 print(Friends)
 Friends.append("blessing")
+print(Friends)
+Friends.extend(cgpa)
 print(Friends)
 
 #Dictionaries
@@ -40,17 +43,17 @@ Month_conversions = [
 
 print(Month_conversions)
 
-#Guessing Game
+# Building Guessing Game
 Secret_word = "MARVEL"
 guess = ''
 guess_count = 0
 guess_limit = 3
 out_of_guesses = False
 while guess != Secret_word and not (out_of_guesses):
-    if guess_count > guess_limit:
+    if guess_count < guess_limit:
         guess = input("Enter Guess: ")
         guess_count += 1
-    else:out_of_guesses = True
+    else: out_of_guesses = True
 
 if out_of_guesses:
     print("Out Of Guess You Lose!!")
@@ -59,7 +62,7 @@ else:
 
 #STRING
     
-School = "Programmers University"
+School = "Programmers\nUniversity"
 print(School)
     
 num = 1950
@@ -76,25 +79,40 @@ Sport = input("Enter Favourite Game: ")
 
 
 print("Roses are " + color )
-print("i love a " + celebrity)
+print("i love " + celebrity)
 print("my proffession is " + Proffession)
 print("my  favourite game is " + Sport)
 
-# BUILDING A CALCULATOR
-num1 = input(int("Enter first num: "))
+# BUILDING A BASIC CALCULATOR
+num1 = int(input("Enter first num: "))
 opp = input("Enter Opearator: ")
-num2 = input(int("Enter second number: "))
+num2 = int(input("Enter second number: "))
 
-if '+':
+if opp =='+':
     print(num1 + num2)
-elif '-':
-    print(num2 - num1)
-elif '/':
+elif opp =='-':
+    print(num1 - num2)
+elif  opp == '/':
     print(num1 / num2)
-elif '*':
+elif opp =='*':
     print( num1 * num2)
-else: 
-    print("Invalid Operation")
+else:
+    print("Invalid Operator")
+
+
+#21d AND NESTED LOOPS
+    Even_nums = {
+     [1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9],
+ }
+  
+print(Even_nums[0] [2])
+
+
+
+
+
 
 
 
