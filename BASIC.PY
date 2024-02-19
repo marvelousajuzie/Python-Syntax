@@ -7,6 +7,20 @@ print(" /    |")
 print("/_____|")
 
 
+#SIMPLE WORD REPLACEMENT PROGRAM
+
+Sentence = input("Enter Your Sentence: ")
+print("Your Sentence is: " + Sentence)
+Word1 = input("Enter Word to replace: ")
+Word2 = input("Enter Word to replace it with: ")
+print(Sentence.replace(Word1, Word2))
+
+#Strings
+name = 'Marvel'
+Age = 20
+print(name.upper())
+print(name + ' is' , Age)
+
 
 #Variables $ Datatypes
 character_name = "Kelvin"
@@ -18,6 +32,13 @@ print("he is " + character_age + " years old")
 print("he really liked the named " + character_name + '')
 print("but doesn't like being " + character_age + '')
 print("he is also a student of " + character_school + '')
+
+
+#GETTING USERS INPUT
+name = input("Enter Your Name: " )
+Age = int(input("Enter your Age: "))
+
+print("Hello " + name + " You Are " ,Age)
 
 
 #List
@@ -100,14 +121,7 @@ else:
     print("Invalid Operator")
 
 
-#21d AND NESTED LOOPS
-    Even_nums = {
-     [1, 2, 3],
-     [4, 5, 6],
-     [7, 8, 9],
- }
-  
-print(Even_nums[0] [2])
+
 
 
 
