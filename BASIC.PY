@@ -6,9 +6,15 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#TUPLES
+Even_num = (2, 4, 6, 8, 10)
+print(Even_num)
+print(Even_num[3])
+print(len(Even_num))
+print(type(Even_num))
+
 
 #SIMPLE WORD REPLACEMENT PROGRAM
-
 Sentence = input("Enter Your Sentence: ")
 print("Your Sentence is: " + Sentence)
 Word1 = input("Enter Word to replace: ")
@@ -43,6 +49,10 @@ print("Hello " + name + " You Are " ,Age)
 
 #List
 Friends = ["marvel", "princess", "Temperance", "goodnews"]
+print(Friends[2][3])
+print(type(Friends))
+Friends[0] = "Prince"
+print(Friends)
 cgpa = [2.5, 2.7, 3.8, 4.0]
 print(Friends)
 Friends.append("blessing")
@@ -104,7 +114,7 @@ print("i love " + celebrity)
 print("my proffession is " + Proffession)
 print("my  favourite game is " + Sport)
 
-# BUILDING A BASIC CALCULATOR
+#BUILDING A BASIC CALCULATOR
 num1 = int(input("Enter first num: "))
 opp = input("Enter Opearator: ")
 num2 = int(input("Enter second number: "))
