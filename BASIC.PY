@@ -6,6 +6,14 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#WHILE LOOP
+i = 1
+while i <=  6:
+    print(i)
+    i += 1
+
+
+
 #IF STATEMENT  1
 value = int(input("Input A Number: "))
 if value % 2 == 0:
@@ -96,18 +104,18 @@ Friends.extend(cgpa)
 print(Friends)
 
 #Dictionaries
-
-Month_conversions = [
-    'mon', "Monday",
-    'tue', "Tuesday",
-    'wed', "Wednesday",
-    'thur', "Thursday",
-    'fri', "Friday",
-    'sat', "Saturday",
-    'sun', "Sunday",
-]
+Month_conversions = {
+    'mon': "Monday",
+    'tue': "Tuesday",
+    'wed': "Wednesday",
+    'thur': "Thursday",
+    'fri': "Friday",
+    'sat': "Saturday",
+    'sun': "Sunday",
+}
 
 print(Month_conversions)
+print(Month_conversions['wed'])
 
 # Building Guessing Game
 Secret_word = "MARVEL"
@@ -127,7 +135,6 @@ else:
     print("You Win The Game")
 
 #STRING
-    
 School = "Programmers\nUniversity"
 print(School)
     
