@@ -6,6 +6,15 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+
+#FUNCTONS IN PYTHON
+def greeting_fun(name, age):
+    print("Welcome " + name + " you are " ,age, 'years old')
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+greeting_fun(name, age)
+
 #TUPLES
 Even_num = (2, 4, 6, 8, 10)
 print(Even_num)
@@ -20,6 +29,8 @@ print("Your Sentence is: " + Sentence)
 Word1 = input("Enter Word to replace: ")
 Word2 = input("Enter Word to replace it with: ")
 print(Sentence.replace(Word1, Word2))
+
+
 
 #Strings
 name = 'Marvel'
@@ -105,8 +116,6 @@ color = input("Enter Color: ")
 celebrity = input("Enter favourite celebrity: ")
 Proffession = input("Enter current Proffession: ")
 Sport = input("Enter Favourite Game: ")
-
-
 
 
 print("Roses are " + color )
