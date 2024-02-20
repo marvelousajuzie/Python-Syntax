@@ -6,9 +6,19 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#2D LIST AND NESTED LOOPS IN PYTHON
+Even_num = [
+    [2, 4, 6],
+    [8, 10, 12],
+    [14, 16, 18],
+]
 
+print(Even_num[2][1])
+for num in Even_num:
+    for rows in num:
+        print(rows)
 #FOR LOOPs
-numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+numbers = [10, 20, 30, 40, 50]
 for num in numbers:
     print(num)
 
