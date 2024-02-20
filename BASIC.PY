@@ -6,6 +6,17 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#TRY AND EXCEPT IN PYTHON
+
+try:
+    x = int(input("Input an interger: "))
+    print(x)
+except ValueError:
+    print("Invalid Value......" )
+finally:
+    print("Try and Except Finished")
+
+    
 #2D LIST AND NESTED LOOPS IN PYTHON
 Even_num = [
     [2, 4, 6],
