@@ -7,6 +7,29 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#BUILDING A SIMPLE LOGIN AND SIGNUP SYSTEM
+
+print("CREATE ACCOUNT")
+user_name1 = input("USER_NAME: ")
+Email = input("EMAIL: ")
+Password1 = input("PASSWORD: ")
+
+print("Hello " + user_name1 + " Your Account Has Been Created Sucessfully.")
+
+
+print("LOGIN NOW")
+user_name2 = input("USER_NAME: ")
+Password2 = input("PASSWORD: ")
+if user_name2 == user_name1 and Password2 == Password1:
+    print("WELCOME BACK " + user_name2)
+elif user_name2 == user_name1 and Password2 != Password1:
+    print("CORRECT USER_NAME AND INCORRECT PASSWORD")
+elif user_name2 != user_name1 and Password2 == Password1:
+    print("INCORRECT USER_NAME AND CORRECT PASSWORD")
+else:
+    print("INCORRECT USER_NAME AND PASSWORD")
+
+
 #CLASSES
 class employee:
     def __init__(self, name, age, position):
