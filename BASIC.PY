@@ -6,6 +6,13 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#RETURN KEYWORD 
+def subtract_num(num1, num2):
+    return num1-num2
+
+num1 =int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+print(subtract_num(num1, num2))
 
 #FUNCTONS IN PYTHON
 def greeting_fun(name, age):
