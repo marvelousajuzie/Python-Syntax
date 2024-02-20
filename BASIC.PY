@@ -1,3 +1,10 @@
+#READING AND WRITING FILES
+Employee_file = open('Employee.txt', 'r')
+print(Employee_file.readable)
+print(Employee_file.readlines)
+
+Employee_file.close()
+
 #Drawing Shapes
 print("     /|")
 print("    / |")
@@ -6,8 +13,9 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
-#TRY AND EXCEPT IN PYTHON
 
+
+#TRY AND EXCEPT IN PYTHON
 try:
     x = int(input("Input an interger: "))
     print(x)

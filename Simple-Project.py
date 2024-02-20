@@ -1,5 +1,6 @@
 
-#SIMPLE WORD REPLACEMENT PROGRAM
+#READING AND WRITING FILES
+Employee_file = open('Employee.txt', 'r')
+print(Employee_file.readable)
 
-Sentence = input("Enter Your Sentence: ") 
-print(Sentence)
+Employee_file.close()
