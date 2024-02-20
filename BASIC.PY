@@ -6,6 +6,23 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#IF STATEMENT  1
+value = int(input("Input A Number: "))
+if value % 2 == 0:
+    print(value, " can be divided 2 ")
+else:
+    print(value, "cannot be divided by 2")
+
+#IF STATEMENT  2
+A =9
+B =9
+if A > B:
+    print(str(A) + " is greater than " + (str (B)))
+elif A == B:
+    print(str(A) + " is equal to " + (str(B)))
+else:
+   print(str(A) + " is less than " + (str (B)))
+
 #RETURN KEYWORD 
 def subtract_num(num1, num2):
     return num1-num2
