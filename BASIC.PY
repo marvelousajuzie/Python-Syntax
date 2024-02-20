@@ -1,9 +1,3 @@
-#READING AND WRITING FILES
-Employee_file = open('Employee.txt', 'r')
-print(Employee_file.readable)
-print(Employee_file.readlines)
-
-Employee_file.close()
 
 #Drawing Shapes
 print("     /|")
@@ -13,6 +7,29 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#CLASSES
+class employee:
+    def __init__(self, name, age, position):
+        self.name = name
+        self.age = age
+        self.position = position
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+position = input("Enter your position: ")
+
+person = employee(name, age, position)
+print(person.name)
+print(person.age)
+print(person.position)
+
+
+#READING AND WRITING FILES
+Employee_file = open('Employee.txt', 'r')
+print(Employee_file.readable)
+print(Employee_file.readlines)
+
+Employee_file.close()
 
 
 #TRY AND EXCEPT IN PYTHON
