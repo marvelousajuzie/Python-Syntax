@@ -7,24 +7,26 @@ print("  /   |")
 print(" /    |")
 print("/_____|")
 
+#MODULES IN PYTHON
+#We have already build modules and can also import online
+
+
 #BUILDING A SIMPLE LOGIN AND SIGNUP SYSTEM
-
 print("CREATE ACCOUNT")
-user_name1 = input("USER_NAME: ")
+user_name = input("USER_NAME: ")
 Email = input("EMAIL: ")
-Password1 = input("PASSWORD: ")
+Password = input("PASSWORD: ")
 
-print("Hello " + user_name1 + " Your Account Has Been Created Sucessfully.")
-
+print("Hello " + user_name + " Your Account Has Been Created Sucessfully.")
 
 print("LOGIN NOW")
 user_name2 = input("USER_NAME: ")
 Password2 = input("PASSWORD: ")
-if user_name2 == user_name1 and Password2 == Password1:
+if user_name2 == user_name and Password2 == Password:
     print("WELCOME BACK " + user_name2)
-elif user_name2 == user_name1 and Password2 != Password1:
+elif user_name2 == user_name and Password2 != Password:
     print("CORRECT USER_NAME AND INCORRECT PASSWORD")
-elif user_name2 != user_name1 and Password2 == Password1:
+elif user_name2 != user_name and Password2 == Password:
     print("INCORRECT USER_NAME AND CORRECT PASSWORD")
 else:
     print("INCORRECT USER_NAME AND PASSWORD")
